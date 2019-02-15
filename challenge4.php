@@ -56,8 +56,8 @@
         let time = parseInt(document.getElementById("int1").value);
         let hours = time / 60;
         const min = time % 60;
-        alert(time + "is equal to: " + Math.floor(hours) + " and " + min + " minutes.");
-        return time + " is equal to: " + Math.floor(hours) + " and " + min + " minutes.";
+        alert(time + ": is equal to: " + Math.floor(hours) + " hours and " + min + " minutes.");
+        return time + " is equal to: " + Math.floor(hours) + " hours and " + min + " minutes.";
 
     }
 

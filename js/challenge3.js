@@ -7,4 +7,4 @@ function largest(a, b, c) {
     return largest;
 }
 
-console.log(largest(45, 8, 9));
+console.log("The largest number is: " + largest(45, 8, 9));

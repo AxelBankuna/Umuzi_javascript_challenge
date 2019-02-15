@@ -67,7 +67,7 @@
         let perimeter = a + b + c;
         let s = perimeter/2;
         let area = Math.sqrt((s * (s - a) * (s - b) * (s - c)));
-        alert("Area of triangle: " + area);
+        alert("Area of triangle: " + area.toFixed(2) + " cm squared");
     }
 
 </script>

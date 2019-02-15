@@ -6,4 +6,3 @@ function area_triange(a, b, c) {
 }
 
 console.log(area_triange(5, 12, 13));
-console.log("hello");

@@ -60,7 +60,7 @@
         const a = parseInt(document.getElementById("int1").value);
         const b = parseInt(document.getElementById("int2").value);
 
-        if (a == 65 || b == 65 || (a + b) == 65)
+        if (a === 65 || b === 65 || (a + b) === 65)
             alert("65 detected: true");
         else
             alert("false");
